@@ -1,0 +1,4 @@
+rootProject.name='XunFei'
+include ':app'
+include ':speechDemo'
+include ':unity'
