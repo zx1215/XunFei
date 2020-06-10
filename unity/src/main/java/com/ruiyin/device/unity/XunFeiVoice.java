@@ -105,6 +105,7 @@ public class XunFeiVoice {
 
         public void onError(SpeechError error) {
             try {
+                //来了老弟
                 XunFeiVoice.this.jsonObject.put("result", "FAILED");
                 XunFeiVoice.this.jsonObject.put("msg", "Error");
                 XunFeiVoice.this.AndroidCallUnity("Driver", "UnityMethod", XunFeiVoice.this.jsonObject.toString());
